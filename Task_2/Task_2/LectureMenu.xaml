@@ -1,0 +1,27 @@
+﻿<Window x:Class="Task_2.LectureMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_2"
+        mc:Ignorable="d"
+        Title="LectureMenu" Height="368.201" Width="525">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Icons/89810100-concepto-de-regreso-a-la-escuela-útiles-escolares-y-escolares-cuaderno-manzana-marcador-pluma-lápices-tije.jpg"/>
+        </Grid.Background>
+        <Button Content="" HorizontalAlignment="Left" Margin="222,230,0,0" VerticalAlignment="Top" Width="48" Click="Button_Click" Height="47">
+            <Button.Background>
+                <ImageBrush ImageSource="Icons/Back.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="SET TEST" HorizontalAlignment="Left" Margin="217,112,0,0" VerticalAlignment="Top" FontFamily="Calibri" Background="#FF00FF29" FontWeight="Bold" FontSize="13.333"/>
+        <Label Content="BACK" HorizontalAlignment="Left" Margin="222,200,0,0" VerticalAlignment="Top" FontFamily="Calibri" Background="#FF00FF29" FontWeight="Bold" FontSize="13.333"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="217,145,0,0" VerticalAlignment="Top" Width="53" Height="50" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="Icons/SetTest.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

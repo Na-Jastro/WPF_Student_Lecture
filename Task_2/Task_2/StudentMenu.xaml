@@ -1,0 +1,45 @@
+﻿<Window x:Class="Task_2.StudentMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_2"
+        mc:Ignorable="d"
+        Title="StudentMenu" Height="368.201" Width="525">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Icons/89810100-concepto-de-regreso-a-la-escuela-útiles-escolares-y-escolares-cuaderno-manzana-marcador-pluma-lápices-tije.jpg"/>
+        </Grid.Background>
+        <Button x:Name="Back" Content="" HorizontalAlignment="Left" Margin="207,206,0,0" VerticalAlignment="Top" Width="50" Height="41" FontFamily="Calibri" FontWeight="Bold" FontSize="16" Click="Back_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Icons/Back.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="TAKE TEST" HorizontalAlignment="Left" Margin="215,65,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold" RenderTransformOrigin="0.143,0.511" Background="#FF00FF29" FontSize="13.333">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-31.149"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="BACK" HorizontalAlignment="Left" Margin="215,164,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold" Background="#FF00FF29" FontSize="13.333" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-36.875"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="btnTakeTest" Content="" HorizontalAlignment="Left" Margin="207,97,0,0" VerticalAlignment="Top" Width="50" Height="48" Click="btnTakeTest_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Icons/Question.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

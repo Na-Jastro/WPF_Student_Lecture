@@ -1,0 +1,57 @@
+﻿<Window x:Class="Task_2.Memo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_2"
+        mc:Ignorable="d"
+        Title="Memo" Height="405.201" Width="555">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Icons/89810100-concepto-de-regreso-a-la-escuela-útiles-escolares-y-escolares-cuaderno-manzana-marcador-pluma-lápices-tije.jpg"/>
+        </Grid.Background>
+        <DataGrid x:Name="dataGrid1" HorizontalAlignment="Left" Margin="135,40,0,0" VerticalAlignment="Top" Width="395" Height="62"/>
+        <DataGrid x:Name="dataGrid2" HorizontalAlignment="Left" Margin="135,165,0,0" VerticalAlignment="Top" Width="395" Height="62"/>
+        <Button x:Name="cc" Content="" HorizontalAlignment="Left" Margin="160,310,0,0" VerticalAlignment="Top" Width="45" Click="btnViewLectureStudentAnswers_Click" Height="45">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Load.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnMemo" Content="" HorizontalAlignment="Left" Margin="345,310,0,0" VerticalAlignment="Top" Width="52" Click="btnMemo_Click" Height="45" RenderTransformOrigin="0.288,0.778">
+            <Button.Background>
+                <ImageBrush ImageSource="Icons/marks.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnHome" Content="" HorizontalAlignment="Left" Margin="440,310,0,0" VerticalAlignment="Top" Width="50" Height="45" Click="btnHome_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Icons/Home.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="label" Content="Lecture Answers" HorizontalAlignment="Left" Margin="268,10,0,0" VerticalAlignment="Top" Background="#FF00FF29" FontFamily="Calibri" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Student Answers" HorizontalAlignment="Left" Margin="268,130,0,0" VerticalAlignment="Top" Background="#FF00FF29" FontFamily="Calibri" FontWeight="Bold"/>
+        <Label x:Name="label2" Content="VIEW LECTURE AND STUDENT ANSWER" HorizontalAlignment="Left" Margin="90,284,0,0" VerticalAlignment="Top" Background="#FF00FF29" FontFamily="Calibri" FontWeight="Bold"/>
+        <Label x:Name="label3" Content="Marks" HorizontalAlignment="Left" Margin="360,275,0,0" VerticalAlignment="Top" Background="#FF00FF29" FontFamily="Calibri" FontWeight="Bold" RenderTransformOrigin="1.669,0.757">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-53.199"/>
+                    <TranslateTransform X="-17.426" Y="-43.947"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="Home" Content="Home" HorizontalAlignment="Left" Margin="445,275,0,0" VerticalAlignment="Top" Background="#FF00FF29" FontFamily="Calibri" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-41.97"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="label4" Content="Student Answers" HorizontalAlignment="Left" Margin="37,184,0,0" VerticalAlignment="Top" Background="#FF00FF29"/>
+        <Label x:Name="label5" Content="Lecture Answers" HorizontalAlignment="Left" Margin="39,58,0,0" VerticalAlignment="Top" Background="#FF00FF29"/>
+
+    </Grid>
+</Window>
